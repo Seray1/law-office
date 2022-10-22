@@ -337,23 +337,33 @@ font-size: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 10px;
+    gap: 30px;
 }
 .contacts{
-    background-color: azure;
+   width: fit-content;
     height: 30vh;
+    /* background-color: aqua; */
 }
 .c1{
-   flex-grow: 1; 
+   flex-basis: 400px; 
 }
 .c2{
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 20px;
   
 }
 .c3{
     text-align: center;
+}
+.c3 .brown{
+    color: #ad7f62;
+}
+.c3 span{
+    color: #f2f6fc;
+}
+.c2 h1{
+color: #f2f6fc;
 }
 
 
