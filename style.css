@@ -341,10 +341,19 @@ font-size: 40px;
 }
 .contacts{
     background-color: azure;
+    height: 30vh;
 }
 .c1{
-    
+   flex-grow: 1; 
 }
-
+.c2{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  
+}
+.c3{
+    text-align: center;
+}
 
 
