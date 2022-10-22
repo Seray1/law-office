@@ -297,7 +297,7 @@ border-bottom: none;
     font-size: 80px;
     position: absolute;
     left: 40%;
-    top: 30px;
+    top: 0;
     transform: rotate(180deg);
 
 }
