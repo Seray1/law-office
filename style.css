@@ -1,0 +1,350 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Libre Baskerville', serif;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #283C61;
+}
+header  a{
+    background-color: #ad7f62;
+    padding: 5px;
+    text-decoration: none;
+    color: #f2f6fc;
+    margin-right: 5em;
+}
+header p{
+    margin-left: 5em;
+    align-self: flex-end ;
+    color:  #f2f6fc;
+}
+#first-section{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    
+}
+#first-section img{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    
+}
+.float{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: #283c61bd;
+    
+}
+.float-top{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid  #f2f6fc ;
+    height: 10%;
+    position: sticky ;
+    width: 100%;
+    top: 0;
+}
+.float-top2{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid  #f2f6fc ;
+    height: 10%;
+    position: sticky ;
+    width: 100%;
+    top: 0;
+    background-color: #283C61;
+    display: none;
+
+}
+.d1{
+display: flex;
+gap: px;
+border-bottom: none;
+}
+.d2{
+    display: flex;
+    gap: 20px;
+    border-bottom: none;
+    
+}
+.d2 a{
+    text-decoration: none;
+    color: #f2f6fc;
+    transition: 1s ease;
+}
+.d2 a:hover{
+    color: #ad7f62;
+}
+.d1 i{
+    color: #ad7f62;
+    font-size: 35px;
+    position: relative;
+    bottom: 3px;
+}
+.float-bottom h1{
+    color: white;
+    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+.float-bottom{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:90% ;
+}
+.float-bottom-child{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+    font-size: 25px;
+    
+}
+#button1{
+    /* border: 1px solid  #ad7f62; */
+    padding: 10px;
+    background-color:  #ad7f62;
+    border: none;
+    color:#f2f6fc;
+}
+#button2{
+    background-color: transparent;
+    padding: 10px 35px 10px 35px; 
+    border: 1px solid  #ad7f62;
+    color: #f2f6fc;
+}
+.buttons{
+    display: flex;
+    gap: 30px;
+    align-self: center;
+    margin-top: 2em;
+}
+
+#about-us{
+    height: 100vh;
+    width: 100%;
+    padding: 100px 20px 20px 50px;
+    background-color: #f2f6fc;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* position: relative; */
+  
+}
+#about-us img{
+    height: 70vh;
+    width: 30%;
+    object-fit: cover;
+    box-shadow: 20px 20px 1px #ad7f62;
+}
+#about-us button{
+    background-color: #ad7f62;
+    border: none;
+    padding: 10px 30px 10px 30px;
+}
+#about-us aside{
+    display: flex;
+    display: flex;
+    gap: 50px;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.text button{
+    justify-self: flex-start;
+    width: 200px;
+    margin-top: 20px;
+}
+
+.blue-cards{
+    display: flex;
+    gap: 12px;
+    position: absolute;
+    width: fit-content;
+    top: 90%;
+    right: 18%;
+    
+}
+.inside-bluecard{
+    display: flex;
+    color: #f2f6fc;
+    font-size: 0.8em;
+    text-align: justify;
+    background-color: #283C61;
+    border-bottom: 5px solid #ad7f62;
+   
+}
+.card-icon{
+   color: #ad7f62;
+   font-size: 50px;
+    background-color: white;
+    background-color: #283C61;
+    font-size: 0.6em;
+    text-align: justify;
+    width: 300px;
+    padding: 30px;
+    display: flex;
+    gap: 20px;
+}
+.card-icon i{
+    display: inline-block;
+    font-size: 7em;
+
+}
+.card-icon h2{
+    color: #f2f6fc;
+    line-height: -10px;
+}
+#practice-area{
+    width: fit-content;
+    height: 100vh;
+    padding: 40px; 
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    gap: 10px;
+    justify-content: center;
+    justify-items: center;
+    background-color: #283C61;
+
+}
+.i1 h2{
+    font-size: 0.8rem;
+    text-align: left;
+    color: #f2f6fc;
+   
+}
+.i1{
+    /* background-color: white; */
+    width: 300px;
+    height: 200px;
+    border-bottom: 5px solid #ad7f62;
+    background-color: #6a7da1;
+
+
+
+}
+#practice-section{
+    width: 100%;
+    height: 100vh;
+    padding: 40px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #283C61;
+}
+#practice-section button{
+    background-color: #ad7f62;
+    border: none;
+    color: white;
+    padding: 15px;
+}
+#practice-section h1,h2{
+   color: #f2f6fc;
+}
+#practice-section h1{
+    color: #f2f6fc;
+    margin-top: 10px;
+}
+#feedbacks{
+    padding:40px ;
+    width: 100%;
+    height: 100vh;
+    background-color: #f2f6fc;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.feedbacks-cards{
+    background-color: white;
+    height: 60vh;
+    width: 20%;
+    border-bottom: 5px solid #ad7f62;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10px 0 10px;
+}
+.class-holder{
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.feedbacks-cards::before{
+    content: ' " ';
+    color: #ad7f62;
+    font-size: 80px;
+    position: absolute;
+    left: 40%;
+    top: 30px;
+    transform: rotate(180deg);
+
+}
+#feedbacks h1{
+margin-bottom: 20px;
+font-size: 40px;
+}
+#feedbacks h3{
+    margin-bottom: 20px;
+}
+#feedbacks .person{
+    justify-self: flex-end;
+    align-self: flex-end;
+    margin-top: 30px;
+
+}
+#contact-us{
+   position: relative;
+    width: 100%;
+    height: 50vh;
+
+}
+#contact-us img{
+    width: 100%;
+    height: 50vh;
+    object-fit: cover;
+    object-position: 100% 10%;
+
+}
+.ontop{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50vh;
+    background-color: #283c61bd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.contacts{
+    background-color: azure;
+}
+.c1{
+    
+}
+
+
+
