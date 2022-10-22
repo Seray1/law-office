@@ -351,7 +351,7 @@ font-size: 40px;
     display: flex;
     flex-direction: column;
     gap: 20px;
-  
+  color: #f2f6fc;
 }
 .c3{
     text-align: center;
@@ -364,6 +364,20 @@ font-size: 40px;
 }
 .c2 h1{
 color: #f2f6fc;
+}
+footer{
+    background-color: #283C61;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+   
+}
+footer   a{
+    background-color: #ad7f62;
+    padding: 5px;
+    text-decoration: none;
+    color: #f2f6fc;
+    margin-right: 5em;
 }
 
 
