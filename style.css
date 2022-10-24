@@ -337,7 +337,7 @@ font-size: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 30px;
+    gap: 50px;
 }
 .contacts{
    width: fit-content;
@@ -378,6 +378,10 @@ footer   a{
     text-decoration: none;
     color: #f2f6fc;
     margin-right: 5em;
+}
+.c4 p{
+display: flex;
+gap: 20px;
 }
 
 
