@@ -3,8 +3,9 @@
     margin: 0;
     box-sizing: border-box;
 }
-body {
-    /* max-width: ; */
+
+section{
+    scroll-snap-align: center;
 }
 img{
     width: 100%;
@@ -13,7 +14,7 @@ img{
 #header{
         display: flex;
         justify-content: space-between;
-        background-color: #283C61;
+      padding-top: 5px;
 }
 #header  a{
     background-color: #ad7f62;
@@ -31,21 +32,23 @@ img{
     position: relative;
     width: 100%;
     height: 100vh;
+    padding-top: 50px;
     
 }
 #first-section img{
     width: 100%;
-    height: 100vh;
+    height: 100%;
     object-fit: cover;
     object-position:50%  100%;
     
 }
 .float{
+    padding-top: 50px;
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
-    height: 100vh;
+    height: 100%;
     background-color: #283c61bd;
     
 }
@@ -54,11 +57,11 @@ img{
     justify-content: space-between;
     padding: 10px;
     border-bottom: 1px solid  #f2f6fc ;
-    height: 10%;
-    position: sticky ;
+    height: 50px;
+    position: fixed ;
     width: 100%;
     top: 0;
-    background-color: #283c6191;
+    background-color: #283C61;
     z-index: 999;
 }
 .d1{
@@ -249,6 +252,9 @@ img{
     justify-content: center;
     align-items: center;
 }
+#feedbacks h1{
+    padding-top: 25px;
+}
 .class-holder{
     display: flex;
     gap: 20px;
@@ -273,7 +279,7 @@ img{
     transition: 1s ease;
 }
 .feedbacks-cards:hover{
-transform: scale(1.1);
+transform: scale(1.05);
 }
 .feedbacks-cards::before{
     content: ' " ';
@@ -395,10 +401,10 @@ footer a{
         
     }
     .float-top{
-        height: 30%;
+        height: 50px;
         flex-wrap: wrap;
         padding: 0;
-        border: none;
+       
         
     }
     #first-section{
@@ -410,6 +416,8 @@ footer a{
      flex-direction: column;
      width: 100%;
      gap: 7px;
+     top: 50px;
+     position: absolute;
      padding: 10px;
      transform: translate(-100%);
      transition: 1s ease;
@@ -438,7 +446,21 @@ footer a{
 
     
 }
+
+
 @media (min-width:769px) {
+    body {
+        height: 100vh;
+        overflow: hidden;
+    }
+    main{
+        width: 100%;
+        height: 100%;
+        overflow-y: scroll;
+        scroll-behavior: smooth;
+        scroll-snap-type: y mandatory;
+    
+    }
     #first-section img{
         object-position:100%  0%;
         
@@ -454,7 +476,7 @@ footer a{
     font-size: 2em;
 }
 #about-us{
-    height: 100%;
+    height: 100vh;
     width: 100%;
     padding: 70px 20px 20px 20px;
     background-color: #f2f6fc;
@@ -510,7 +532,7 @@ footer a{
 
 }
 #practice-section{
-    height: 100%;
+    height: 100vh;
 }
 .i1{
     background: #6c94df31;
@@ -518,6 +540,7 @@ footer a{
 }
 #feedbacks{
     padding: 40px;
+    height: 100vh;
 }
 .class-holder{
     flex-direction: row;
@@ -528,13 +551,13 @@ footer a{
     width: 25%;
 }
 #contact-us{
-    height: 50vh;
+    height: 100vh;
 }
 #contact-us img{
-    height: 50vh;
+    height: 100vh;
 }
 .ontop{
-    height: 50vh;
+    height: 100vh;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
@@ -544,5 +567,6 @@ footer a{
     /* align-self: flex-start; */
     font-size: 2em;
 }
+
 
 }
